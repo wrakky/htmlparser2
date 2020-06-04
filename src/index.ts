@@ -1,9 +1,9 @@
 import { Parser, ParserOptions } from "./Parser";
 export { Parser, ParserOptions };
 
-import { DomHandler, DomHandlerOptions, Node, Element } from "domhandler";
+import { DomHandler, DomHandlerOptions, Node, Element, NodeWithChildren, DataNode } from "domhandler";
 
-export { DomHandler, DomHandlerOptions };
+export { DomHandler, DomHandlerOptions, Node, Element, NodeWithChildren, DataNode };
 
 type Options = ParserOptions & DomHandlerOptions;
 
